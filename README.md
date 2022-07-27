@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple steps.
 
 - GitHub: [Aquinas Moriasi](https://github.com/Aquinasmoriasi)
 - Twitter: [@Aquinas747](twitter.com/aquinas747)
-- LinkedIn: [Aquinas Moriasi](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [Aquinas Moriasi](https://www.linkedin.com/in/aquinas-moriasi/)
 
 ## 🤝 Contributing
 
