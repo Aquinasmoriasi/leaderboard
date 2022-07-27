@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2,
+h3 {
+  font-size: 30px;
+}
+
+button {
+  padding: 8px 15px;
+  border: 3px solid;
+  box-shadow: 2px 2px 1px 1px;
+  cursor: pointer;
+}
+
+.score-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 70px;
+}
+
+.recent-scores {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.recent-scores ul {
+  align-self: flex-start;
+  border: 3px solid;
+  width: 100%;
+  flex: 100%;
+  margin-top: 20px;
+}
+
+.recent-scores ul li {
+  padding: 10px;
+}
+
+.recent-scores ul li:nth-of-type(even) {
+  background-color: rgb(237, 237, 237);
+}
+
+.add-scores {
+  width: 50%;
+  padding: 0;
+}
+
+form {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+form input {
+  padding: 10px;
+  border: 3px solid;
+}
+
+form button {
+  align-self: flex-end;
+}
