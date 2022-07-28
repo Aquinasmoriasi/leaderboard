@@ -16,6 +16,7 @@ form.addEventListener('submit', (e) => {
 });
 
 refresh.addEventListener('click', async () => {
+  window.location.reload();
   const storedScores = await fetch(newUrl);
   const response = await storedScores.json();
   Scores.displayScores(response.result);
