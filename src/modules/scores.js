@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const id = 'xr0xjbx2eIUnctoz8aGY';
+const id = 'vX6tyJpGukeqHjTXq1bA';
 const identifierUrl = `${url}games/${id}/scores/`;
 
 const leaderBoard = async (user, userScore) => {
@@ -12,7 +12,7 @@ const leaderBoard = async (user, userScore) => {
     body: JSON.stringify({ user: `${user}`, score: userScore }),
   });
   const res = await response.json();
-  console(res.result);
+  return res.result;
 };
 
 export { leaderBoard };
