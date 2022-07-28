@@ -2,14 +2,15 @@ import './style.css';
 import { leaderBoard } from './modules/scores.js';
 import Scores from './modules/display.js';
 
+const add = document.querySelector('#add');
 const form = document.querySelector('form');
 const refresh = document.getElementById('refresh');
+const score = document.getElementById('score');
+const user = document.getElementById('user');
 const newUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xr0xjbx2eIUnctoz8aGY/scores/';
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  const { user, score } = form;
-  const newScore = { user: user.value, score: score.value };
-  leaderBoard(newScore);
+
+add.addEventListener('click', () => {
+  leaderBoard(user.value, Number(score.value));
   form.reset();
 });
 

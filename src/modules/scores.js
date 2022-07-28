@@ -1,18 +1,18 @@
 /* eslint-disable import/prefer-default-export */
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
-const id = '8B54FQRLCek3dntQ1aKS';
-const identifierUrl = `${url}games/${id}/scores`;
+const id = 'xr0xjbx2eIUnctoz8aGY';
+const identifierUrl = `${url}games/${id}/scores/`;
 
-const leaderBoard = async (name, score) => {
+const leaderBoard = async (user, userScore) => {
   const response = await fetch(identifierUrl, {
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json, charset="UTF-8"',
+      'Content-Type': 'application/json',
     },
-    body: JSON.stringify(name, score),
+    body: JSON.stringify({ user: `${user}`, score: userScore }),
   });
   const res = await response.json();
-  return res.result;
+  console(res.result);
 };
 
 export { leaderBoard };
