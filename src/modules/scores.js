@@ -1,29 +1,18 @@
 /* eslint-disable import/prefer-default-export */
-const scores = [
-  {
-    name: 'alpha',
-    score: 13,
-  },
-  {
-    name: 'Beta',
-    score: 26,
-  },
-  {
-    name: 'Charlie',
-    score: 13,
-  },
-  {
-    name: 'Foxtrot',
-    score: 1,
-  },
-  {
-    name: 'Delta',
-    score: 39,
-  },
-  {
-    name: 'Magma',
-    score: 2,
-  },
-];
+const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
+const id = 'vX6tyJpGukeqHjTXq1bA';
+const identifierUrl = `${url}games/${id}/scores/`;
 
-export { scores };
+const leaderBoard = async (user, userScore) => {
+  const response = await fetch(identifierUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ user: `${user}`, score: userScore }),
+  });
+  const res = await response.json();
+  return res.result;
+};
+
+export { leaderBoard };
