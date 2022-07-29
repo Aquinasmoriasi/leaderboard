@@ -35,13 +35,22 @@ To get a local copy up and running follow these simple steps.
 
 ### Setup
 - copy this link 
-``` https://github.com/Aquinasmoriasi/leaderboard.git ```.
+```
+https://github.com/Aquinasmoriasi/leaderboard.git
+```
+
 - get the directory that you want to clone the repository.
 - open the command prompt in this directory.
-- write `git clone https://github.com/Aquinasmoriasi/leaderboard.git`.
+- write
+```
+git clone https://github.com/Aquinasmoriasi/leaderboard.git
+```
 - go to the repository folder in your command prompt and open `index.html` file
 ### Install
-- write `git clone https://github.com/Aquinasmoriasi/leaderboard.git`.
+- write 
+```
+git clone https://github.com/Aquinasmoriasi/leaderboard.git
+```
 - go to the repository folder in your command prompt and open `index.html` file
 ### Usage
 - This open source site can be accessed in the above provided demo link
