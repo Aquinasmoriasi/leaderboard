@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-body { 
+body {
   background-image: url(../assets/bg.jpg);
   background-size: cover;
 }
@@ -13,7 +13,7 @@ main {
   width: 90vw;
   min-height: 100vh;
   padding: 2% 5%;
- }
+}
 
 ul {
   list-style-type: none;
@@ -33,16 +33,12 @@ h3 {
 
 button {
   padding: 10px 20px;
-  background-color:#171616;
+  background-color: #171616;
   color: #b99333;
   border: none;
   box-shadow: 1px 1px 1px 1px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
-}
-
-button:hover {
-  transform: scale(1.2);
 }
 
 .score-section {
@@ -79,7 +75,7 @@ button:hover {
 .recent-scores ul li:nth-of-type(even) {
   background-color: #b99333;
   color: rgb(0, 0, 0);
- }
+}
 
 .add-scores {
   width: 50%;
@@ -105,9 +101,13 @@ form input[type="number"] {
 }
 
 form input:focus {
-  outline : none;
+  outline: none;
 }
 
 form button {
   align-self: flex-end;
+}
+
+button:hover {
+  transform: scale(1.2);
 }
