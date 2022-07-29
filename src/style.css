@@ -4,9 +4,11 @@
 }
 
 main {
-  width: 90vw;
-  margin: auto;
-  padding: 20px;
+  width: 100vw;
+  color: #efefef;
+  min-height: 100vh;
+  padding: 2%;
+  background-image: url(../assets/bg.jpg);
 }
 
 ul {
