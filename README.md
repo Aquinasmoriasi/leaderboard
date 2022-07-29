@@ -17,8 +17,7 @@
   - Linters
 
 ## Live Demo Link
-
-This is the [Live Demo Link](https://aquinasmoriasi.github.io/leaderboard/).
+None
 
 ## Video Description 
 None
