@@ -3,10 +3,16 @@
   padding: 0;
 }
 
+body {
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+}
+
 main {
+  font-family: 'Courier New', Courier, monospace;
   width: 90vw;
-  margin: auto;
-  padding: 20px;
+  min-height: 100vh;
+  padding: 2% 5%;
 }
 
 ul {
@@ -14,19 +20,25 @@ ul {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
+  color: #b99333;
 }
 
 h2,
 h3 {
-  font-size: 30px;
+  font-size: 40px;
+  color: #b99333;
+  font-style: oblique;
 }
 
 button {
-  padding: 8px 15px;
-  border: 3px solid;
-  box-shadow: 2px 2px 1px 1px;
+  padding: 10px 20px;
+  background-color: #171616;
+  color: #b99333;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .score-section {
@@ -45,10 +57,15 @@ button {
 
 .recent-scores ul {
   align-self: flex-start;
-  border: 3px solid;
+  border: 3px solid #b99333;
+  font-size: 18px;
+  border-radius: 5px;
   width: 100%;
   flex: 100%;
   margin-top: 20px;
+  background-color: #171616;
+  color: #b99333;
+  font-weight: bold;
 }
 
 .recent-scores ul li {
@@ -56,7 +73,8 @@ button {
 }
 
 .recent-scores ul li:nth-of-type(even) {
-  background-color: rgb(237, 237, 237);
+  background-color: #b99333;
+  color: rgb(0, 0, 0);
 }
 
 .add-scores {
@@ -68,15 +86,28 @@ form {
   width: 60%;
   display: flex;
   flex-direction: column;
-  gap: 50px;
-  margin-top: 10px;
+  gap: 30px;
+  margin-top: 20px;
 }
 
 form input {
-  padding: 10px;
-  border: 3px solid;
+  padding: 13px;
+  border-radius: 5px;
+  border: 3px solid #b99333;
+}
+
+form input[type="number"] {
+  -webkit-appearance: textfield;
+}
+
+form input:focus {
+  outline: none;
 }
 
 form button {
   align-self: flex-end;
+}
+
+button:hover {
+  transform: scale(1.2);
 }
