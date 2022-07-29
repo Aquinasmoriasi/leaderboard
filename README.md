@@ -18,7 +18,7 @@
 
 ## Live Demo Link
 
-none
+This is the [Live Demo Link](https://aquinasmoriasi.github.io/leaderboard/).
 
 ## Video Description 
 None
@@ -34,7 +34,8 @@ To get a local copy up and running follow these simple steps.
 - Node JS
 
 ### Setup
-- copy this link ``` https://github.com/Aquinasmoriasi/leaderboard.git ```.
+- copy this link 
+``` https://github.com/Aquinasmoriasi/leaderboard.git ```.
 - get the directory that you want to clone the repository.
 - open the command prompt in this directory.
 - write `git clone https://github.com/Aquinasmoriasi/leaderboard.git`.
