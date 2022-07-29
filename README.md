@@ -3,7 +3,7 @@
 # Leaderboard
 
 
-> This project is leader board project that will display scores generated from an external API.
+> This is leader board project that will display scores generated from an external API. Users can add and retrieve new scores and display them on the page.
 
 
 ## Built With
@@ -25,7 +25,7 @@ None
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 - Visual Studio
@@ -37,13 +37,15 @@ To get a local copy up and running follow these simple steps.
 - copy this link 
 ```
 https://github.com/Aquinasmoriasi/leaderboard.git
+
 ```
 
-- get the directory that you want to clone the repository.
-- open the command prompt in this directory.
+- Choose the directory that you want to clone the repository.
+- Open the command prompt in this directory.
 - write
 ```
 git clone https://github.com/Aquinasmoriasi/leaderboard.git
+
 ```
 - go to the repository folder in your command prompt and open `index.html` file
 ### Install
@@ -51,16 +53,16 @@ git clone https://github.com/Aquinasmoriasi/leaderboard.git
 ```
 git clone https://github.com/Aquinasmoriasi/leaderboard.git
 ```
-- go to the repository folder in your command prompt and open `index.html` file
+- Go to the repository folder in your command prompt and open `index.html` file
 ### Usage
 - This open source site can be accessed in the above provided demo link
-- Tasks can be addded by clicking the return icon in the input field
-- to modify a task, click on the task you want to modify and change the task. To save it, you just need to remove focus away from the input area.
-- the task item can be deleted by hovering over the vertical three lines at the end of the input field whereby a trash icon will appear. Click on the icon to remove the task.
+- Users can enter new scores in the input fields and on submission, they will be sent to an external API where they can be fetched by refreshing the page.
+
 ### Run tests
 - You can navigate to different parts of the page from the navigation bar and you can also inspect using the available browser tools to see how the webpages were built.
+- The user should add a new score in the input fields and can test if their scores were stored by refreshing the page.
 ### Deployment
-- none
+- This page is deployed at [https://aquinasmoriasi.github.io/leaderboard/](https://aquinasmoriasi.github.io/leaderboard/).
 
 ## Authors
 
